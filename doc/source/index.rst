@@ -1,3 +1,8 @@
-==============================================
-Welcome to the documentation of direct-connect
-==============================================
+Direct Connect
+==============
+
+.. directive_wrapper::
+   :class: container-sbv
+
+   .. service_card::
+      :service_type: dc

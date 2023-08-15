@@ -1,3 +1,12 @@
-==============================================
-Welcome to the documentation of direct-connect
-==============================================
+===========================
+Direct Connect - User Guide
+===========================
+
+.. toctree::
+   :maxdepth: 1
+
+   service_overview/index
+   getting_started/index
+   management/index
+   faqs/index
+   change_history

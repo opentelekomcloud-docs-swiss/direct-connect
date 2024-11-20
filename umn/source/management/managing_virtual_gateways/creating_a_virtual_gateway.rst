@@ -17,7 +17,7 @@ Procedure
 
 #. Click |image1| in the upper left corner and select a region and project.
 
-#. In the service list, choose **Network** > **Direct Connect**.
+#. In the service list in the upper left corner of the page, choose **Network** > **Direct Connect**.
 
 #. In the navigation pane on the left, choose **Direct Connect** > **Virtual Gateways**.
 
@@ -31,7 +31,7 @@ Procedure
 
       **Figure 1** Creating a virtual gateway
 
-   .. table:: **Table 1** Parameter description
+   .. table:: **Table 1** Parameters for creating a virtual gateway
 
       +-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
       | Parameter                         | Description                                                                                                                                                     |
@@ -50,9 +50,9 @@ Procedure
       +-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
       | Description                       | Provides supplementary information about the virtual gateway.                                                                                                   |
       |                                   |                                                                                                                                                                 |
-      |                                   | The value contains 0 to 128 characters.                                                                                                                         |
+      |                                   | You can enter up to 128 characters.                                                                                                                             |
       +-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 #. Click **OK**.
 
-.. |image1| image:: /_static/images/en-us_image_0000001249256415.png
+.. |image1| image:: /_static/images/en-us_image_0000001187260408.png

@@ -19,13 +19,13 @@ Procedure
 
 #. Click |image1| in the upper left corner and select a region and project.
 
-#. In the service list, choose **Network** > **Direct Connect**.
+#. In the service list in the upper left corner of the page, choose **Network** > **Direct Connect**.
 
 #. In the navigation pane on the left, choose **Direct Connect** > **Virtual Gateways**.
 
 #. Locate the virtual gateway you want to view and click |image2| before its name to view the details.
 
-   You can view its name, ID, status, type, associated VPC, IPv4 local subnet, IPv6 local subnet, virtual interfaces, and description.
+   You can view the name, ID, status, type, associated VPC, IPv4 local subnet, IPv6 local subnet, virtual interfaces, and description.
 
 
    .. figure:: /_static/images/en-us_image_0000001251062465.png

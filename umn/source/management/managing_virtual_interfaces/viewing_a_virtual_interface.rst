@@ -10,7 +10,7 @@ Scenarios
 
 View details of a virtual interface.
 
-You can view the name, status, associated connection, associated virtual gateway, ID, VLAN, bandwidth, type, creation time, and virtual interface peer of a virtual interface.
+You can view the name, status, associated connection, associated virtual gateway, ID, VLAN, bandwidth, type, creation time, and virtual interface peer.
 
 Procedure
 ---------
@@ -19,7 +19,7 @@ Procedure
 
 #. Click |image1| in the upper left corner and select a region and project.
 
-#. In the service list, choose **Network** > **Direct Connect**.
+#. In the service list in the upper left corner of the page, choose **Network** > **Direct Connect**.
 
 #. In the navigation pane on the left, choose **Direct Connect** > **Virtual Interfaces**.
 

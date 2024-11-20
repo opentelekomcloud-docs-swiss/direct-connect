@@ -1,14 +1,14 @@
-:original_name: en_us_topic_0166140211.html
+:original_name: en-us_topic_0166140211.html
 
-.. _en_us_topic_0166140211:
+.. _en-us_topic_0166140211:
 
 Managing Virtual Gateways
 =========================
 
 -  :ref:`Creating a Virtual Gateway <dc_03_0200>`
 -  :ref:`Viewing a Virtual Gateway <dc_03_0201>`
--  :ref:`Modifying a Virtual Gateway <en_us_topic_0166140212>`
--  :ref:`Deleting a Virtual Gateway <en_us_topic_0166140213>`
+-  :ref:`Modifying a Virtual Gateway <en-us_topic_0166140212>`
+-  :ref:`Deleting a Virtual Gateway <en-us_topic_0166140213>`
 
 .. toctree::
    :maxdepth: 1

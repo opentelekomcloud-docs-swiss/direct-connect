@@ -10,10 +10,12 @@ What Is Direct Connect?
 
 Direct Connect establishes a dedicated connection between your data center and the cloud. You can use one connection to access cloud computing resources in different regions, helping build a secure and reliable hybrid environment.
 
-Application Scenarios
----------------------
+Why Direct Connect?
+-------------------
 
-You need a dedicated network connection between your data center and a Virtual Private Cloud (VPC) to ensure high bandwidth, low latency, and robust security.
+-  Network quality: Direct Connect allows you to establish a dedicated network for data transmission, which brings high network performance, low latency, and excellent user experience.
+-  Security: Direct Connect establishes private connectivity between your on-premises data center and the cloud. Data is transmitted over a secure dedicated connection.
+-  Transmission speed: A connection supports a maximum of 10 Gbit/s bandwidth, meeting various bandwidth requirements.
 
 Components
 ----------
@@ -22,7 +24,7 @@ There are three key components for you to use Direct Connect: connection, virtua
 
 -  **Connection**
 
-   A connection is a dedicated network connection between your on-premises data center and a Direct Connect location over a leased line provided by a carrier. You can request standard connections.
+   A connection links your on-premises data center and a carrier's physical network at the Direct Connect location you select.
 
    A standard connection provides a port that is exclusive to you and allows you to have multiple virtual interfaces associated.
 
@@ -33,22 +35,3 @@ There are three key components for you to use Direct Connect: connection, virtua
 -  **Virtual interface**
 
    A virtual interface is an entrance for you to access VPCs through a leased line. A virtual interface associates your connection with a virtual gateway, which connects to a VPC so that your network can access the cloud.
-
-Advantages
-----------
-
--  High security
-
-   You can use Direct Connect to connect to VPCs. Direct Connect provides a dedicated channel for communication, and this channel is isolated from other networks, ensuring the security.
-
--  Low latency
-
-   A dedicated network is used for data transmission, which brings high network performance, low latency, and excellent user experience.
-
--  High bandwidth
-
-   A connection supports a maximum of 10 Gbit/s bandwidth, meeting various requirements.
-
--  Seamless resource expansion
-
-   You can use Direct Connect to connect your data center to the resources in the cloud, which enables you to deploy a hybrid cloud in a flexible and scalable manner.

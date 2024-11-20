@@ -8,5 +8,5 @@ Direct Connect - User Guide
    service_overview/index
    getting_started/index
    management/index
-   faqs/index
+   faq/index
    change_history

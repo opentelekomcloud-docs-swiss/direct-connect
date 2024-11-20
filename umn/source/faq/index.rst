@@ -2,8 +2,8 @@
 
 .. _en-us_topic_0166140238:
 
-FAQs
-====
+FAQ
+===
 
 -  :ref:`Is BGP Routing Supported in Direct Connect? <dc_faq_0004>`
 -  :ref:`What Are the Network Requirements for Connections? <en-us_topic_0166140240>`
@@ -11,6 +11,8 @@ FAQs
 -  :ref:`How Can I Request a Connection from a Carrier? <dc_faq_0006>`
 -  :ref:`How Do I Plan the Addresses for On-Premises Servers and Cloud Servers? <en-us_topic_0032207883>`
 -  :ref:`Can a Virtual Gateway Have Multiple Virtual Interfaces Bound? <en-us_topic_0116001691>`
+-  :ref:`What Are 1GE and 10GE? What Are the Differences Between Them? <dc_07_0210>`
+-  :ref:`What Are Resource Quotas of Direct Connect? <dc_07_0008>`
 
 .. toctree::
    :maxdepth: 1
@@ -22,3 +24,5 @@ FAQs
    how_can_i_request_a_connection_from_a_carrier
    how_do_i_plan_the_addresses_for_on-premises_servers_and_cloud_servers
    can_a_virtual_gateway_have_multiple_virtual_interfaces_bound
+   what_are_1ge_and_10ge_what_are_the_differences_between_them
+   what_are_resource_quotas_of_direct_connect

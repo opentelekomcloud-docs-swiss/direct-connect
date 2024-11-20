@@ -1,6 +1,6 @@
-:original_name: en_us_topic_0166140212.html
+:original_name: en-us_topic_0166140212.html
 
-.. _en_us_topic_0166140212:
+.. _en-us_topic_0166140212:
 
 Modifying a Virtual Gateway
 ===========================
@@ -15,7 +15,7 @@ Procedure
 
 #. Log in to the management console.
 #. Click |image1| in the upper left corner and select a region and project.
-#. In the service list, choose **Network** > **Direct Connect**.
+#. In the service list in the upper left corner of the page, choose **Network** > **Direct Connect**.
 #. In the navigation pane on the left, choose **Direct Connect** > **Virtual Gateways**.
 
 5. Locate the virtual gateway you want to modify, click **Modify** in the **Operation** column, and modify the virtual gateway.

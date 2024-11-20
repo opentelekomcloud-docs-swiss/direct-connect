@@ -54,9 +54,9 @@ Procedure
       +-----------------------+---------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+
       | Port Type             | Port type. The value can be **1GE** or **10GE**.                                                                                      | 1GE or 10GE                      |
       +-----------------------+---------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+
-      | Bandwidth             | Bandwidth of the connection in the unit of Mbit/s.                                                                                    | 100 Mbit/s                       |
+      | Bandwidth             | Bandwidth of the connection, in Mbit/s.                                                                                               | 100 Mbit/s                       |
       |                       |                                                                                                                                       |                                  |
-      |                       | -  If **Port Type** is set to **1GE**, the bandwidth ranges from 2 Mbit/s to 1000 Mbit/s.                                             |                                  |
+      |                       | -  If **Port Type** is set to **1GE**, the bandwidth ranges from 2 Mbit/s to 1,000 Mbit/s.                                            |                                  |
       |                       | -  If **Port Type** is set to **10GE**, the bandwidth ranges from 2 Mbit/s to 10,000 Mbit/s.                                          |                                  |
       +-----------------------+---------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+
       | Name                  | Connection name. The name can contain a maximum of 64 characters. Only letters, digits, underscores (_), and hyphens (-) are allowed. | directconnect-001                |

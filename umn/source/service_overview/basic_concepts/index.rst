@@ -9,7 +9,6 @@ Basic Concepts
 -  :ref:`Virtual Gateway <dc_01_0012>`
 -  :ref:`Virtual Interface <dc_01_0013>`
 -  :ref:`Virtual Interface Peer <dc_01_0015>`
--  :ref:`Region and AZ <dc_01_0004>`
 
 .. toctree::
    :maxdepth: 1
@@ -19,4 +18,3 @@ Basic Concepts
    virtual_gateway
    virtual_interface
    virtual_interface_peer
-   region_and_az

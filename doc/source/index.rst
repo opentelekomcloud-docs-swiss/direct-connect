@@ -8,5 +8,6 @@ A Direct Connect is a service that allows you to establish a dedicated network c
 
    .. service_card::
       :service_type: dc
+      :cloud_environment: swiss
       :umn: This document describes Direct Connect service, helping you quickly create and properly use the service.
       :api-ref: This document describes application programming interfaces (APIs) of Direct Connect and provides API parameter description and example values.

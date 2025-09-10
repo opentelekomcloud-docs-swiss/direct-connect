@@ -10,7 +10,7 @@ Scenarios
 
 View details of a virtual gateway.
 
-You can view the name, ID, status, type, associated VPC, IPv4 subnet CIDR blocks, IPv6 subnet CIDR blocks, virtual interfaces, and description of a virtual gateway.
+You can view the name, ID, status, type, associated VPC, IPv4 local subnet, IPv6 local subnet, virtual interfaces, and description of a virtual gateway.
 
 Procedure
 ---------

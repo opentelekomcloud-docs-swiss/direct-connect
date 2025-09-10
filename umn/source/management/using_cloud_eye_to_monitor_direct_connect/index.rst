@@ -2,8 +2,8 @@
 
 .. _dc_04_0800:
 
-Monitoring
-==========
+Using Cloud Eye to Monitor Direct Connect
+=========================================
 
 -  :ref:`Overview <dc_04_0801>`
 -  :ref:`Direct Connect Metrics <dc_04_0802>`

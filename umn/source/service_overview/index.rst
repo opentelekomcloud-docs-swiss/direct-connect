@@ -13,7 +13,7 @@ Service Overview
 -  :ref:`Permissions <dc_01_0008>`
 -  :ref:`Direct Connect and Other Services <dc_01_0007>`
 -  :ref:`Region and AZ <dc_01_0005>`
--  :ref:`Basic Concepts <dc_01_0009>`
+-  :ref:`Basic Concepts <en-us_topic_0112674194>`
 
 .. toctree::
    :maxdepth: 1
@@ -27,4 +27,4 @@ Service Overview
    permissions
    direct_connect_and_other_services
    region_and_az
-   basic_concepts/index
+   basic_concepts

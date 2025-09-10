@@ -14,6 +14,8 @@ Constraints and Limitations
 +-------------------------------------------------------------------------------+-------+
 | Number of virtual gateways that can be created by an account in each region   | 5     |
 +-------------------------------------------------------------------------------+-------+
+| Number of local subnets for a virtual gateway                                 | 50    |
++-------------------------------------------------------------------------------+-------+
 | Number of routes for BGP sessions on a virtual interface                      | 100   |
 +-------------------------------------------------------------------------------+-------+
 | Number of static routes on a virtual interface                                | 50    |

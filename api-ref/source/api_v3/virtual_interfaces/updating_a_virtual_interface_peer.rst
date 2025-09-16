@@ -8,14 +8,14 @@ Updating a Virtual Interface Peer
 Function
 --------
 
-This API is used to update a virtual interface peer. Following parameters can be updated: **name**, **description**, and **remote_ep_group**.
+This API is used to update a virtual interface peer. The following parameters can be updated: **name**, **description**, and **remote_ep_group**.
 
 URI
 ---
 
 PUT /v3/{project_id}/dcaas/vif-peers/{vif_peer_id}
 
-.. table:: **Table 1** Path parameters
+.. table:: **Table 1** URI parameters
 
    =========== ========= ====== ========================================
    Parameter   Mandatory Type   Description
@@ -54,7 +54,7 @@ Request Parameters
    +-----------------+-----------------+------------------+------------------------------------------------------------------------------------------------------+
    | Parameter       | Mandatory       | Type             | Description                                                                                          |
    +=================+=================+==================+======================================================================================================+
-   | name            | Yes             | String           | Specifies the name of the virtual interface peer.                                                    |
+   | name            | No              | String           | Specifies the name of the virtual interface peer.                                                    |
    |                 |                 |                  |                                                                                                      |
    |                 |                 |                  | Minimum: **0**                                                                                       |
    |                 |                 |                  |                                                                                                      |
@@ -66,8 +66,12 @@ Request Parameters
    |                 |                 |                  |                                                                                                      |
    |                 |                 |                  | Maximum: **128**                                                                                     |
    +-----------------+-----------------+------------------+------------------------------------------------------------------------------------------------------+
-   | remote_ep_group | Yes             | Array of strings | Specifies the remote subnet list, which records the CIDR blocks used in the on-premises data center. |
+   | remote_ep_group | No              | Array of strings | Specifies the remote subnet list, which records the CIDR blocks used in the on-premises data center. |
    +-----------------+-----------------+------------------+------------------------------------------------------------------------------------------------------+
+
+.. note::
+
+   When you update a virtual interface peer, at least one of the following parameters needs to be specified: **name**, **description**, and **remote_ep_group**.
 
 Response Parameters
 -------------------

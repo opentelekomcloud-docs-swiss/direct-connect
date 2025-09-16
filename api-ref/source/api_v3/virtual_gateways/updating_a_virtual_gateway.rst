@@ -15,7 +15,7 @@ URI
 
 PUT /v3/{project_id}/dcaas/virtual-gateways/{virtual_gateway_id}
 
-.. table:: **Table 1** Path parameters
+.. table:: **Table 1** URI parameters
 
    ================== ========= ====== =================================
    Parameter          Mandatory Type   Description

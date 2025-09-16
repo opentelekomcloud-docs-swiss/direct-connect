@@ -15,7 +15,7 @@ URI
 
 DELETE /v3/{project_id}/dcaas/hosted-connects/{hosted_connect_id}
 
-.. table:: **Table 1** Path parameters
+.. table:: **Table 1** URI parameters
 
    +-------------------+-----------------+-----------------+-------------------------------------+
    | Parameter         | Mandatory       | Type            | Description                         |

@@ -2,8 +2,8 @@
 
 .. _en-us_topic_0055025345:
 
-Appendixes
-==========
+Appendix
+========
 
 -  :ref:`Obtaining a Project ID <en-us_topic_0055025304>`
 

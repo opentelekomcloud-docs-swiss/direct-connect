@@ -15,7 +15,7 @@ URI
 
 GET /v3/{project_id}/dcaas/hosted-connects
 
-.. table:: **Table 1** Path parameters
+.. table:: **Table 1** URI parameters
 
    ========== ========= ====== =========================
    Parameter  Mandatory Type   Description
@@ -199,6 +199,10 @@ Response Parameters
    |                       |                       | -  **10G**                                                                                                                         |
    |                       |                       | -  **40G**                                                                                                                         |
    |                       |                       | -  **100G**                                                                                                                        |
+   |                       |                       |                                                                                                                                    |
+   |                       |                       |    .. note::                                                                                                                       |
+   |                       |                       |                                                                                                                                    |
+   |                       |                       |       The port type of a hosted connection is the same as that of the operations connection that the hosted connection relies on.  |
    +-----------------------+-----------------------+------------------------------------------------------------------------------------------------------------------------------------+
    | type                  | String                | Specifies the type of the connection. The value is **hosted**.                                                                     |
    |                       |                       |                                                                                                                                    |
@@ -231,6 +235,8 @@ Response Parameters
    |                       |                       | Maximum: **36**                                                                                                                           |
    +-----------------------+-----------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
 
+.. _listhosteddirectconnects__en-us_topic_0000001735825408_section98019211349:
+
 Example Requests
 ----------------
 
@@ -238,7 +244,7 @@ Querying the hosted connection list
 
 .. code-block:: text
 
-   POST https://{dc_endpoint}/v3/6fbe9263116a4b68818cf1edce16bc4f/dcaas/hosted-connects
+   GET https://{dc_endpoint}/v3/6fbe9263116a4b68818cf1edce16bc4f/dcaas/hosted-connects
 
 Example Responses
 -----------------

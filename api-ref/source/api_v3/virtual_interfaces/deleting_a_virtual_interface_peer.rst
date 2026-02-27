@@ -8,14 +8,16 @@ Deleting a Virtual Interface Peer
 Function
 --------
 
-This API is used to delete a virtual interface. The virtual interface must contain at least one peer, and the last peer cannot be deleted. This API is only available in regions that support IPv6. To use this API, contact customer service.
+This API is used to delete a virtual interface peer. A virtual interface must have at least one peer. The last peer cannot be deleted.
+
+This API is available only in regions that support IPv6. To use this API, contact customer service.
 
 URI
 ---
 
 DELETE /v3/{project_id}/dcaas/vif-peers/{vif_peer_id}
 
-.. table:: **Table 1** Path parameters
+.. table:: **Table 1** URI parameters
 
    =========== ========= ====== ========================================
    Parameter   Mandatory Type   Description

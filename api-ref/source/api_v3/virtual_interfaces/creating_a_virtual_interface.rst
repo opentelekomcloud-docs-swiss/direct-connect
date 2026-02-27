@@ -15,7 +15,7 @@ URI
 
 POST /v3/{project_id}/dcaas/virtual-interfaces
 
-.. table:: **Table 1** Path parameters
+.. table:: **Table 1** URI parameters
 
    ========== ========= ====== =========================
    Parameter  Mandatory Type   Description
@@ -71,8 +71,6 @@ Request Parameters
    |                       |                 |                  |                                                                                                                                                                                                                                          |
    |                       |                 |                  | Enumeration values: **private**                                                                                                                                                                                                          |
    +-----------------------+-----------------+------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | service_type          | No              | String           | Specifies the type of the access gateway. You do not need to set this parameter.                                                                                                                                                         |
-   +-----------------------+-----------------+------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | vlan                  | Yes             | Integer          | Specifies the customer VLAN to be connected. If you select a hosted connection, the VLAN must be the same as that of the hosted connection.                                                                                              |
    |                       |                 |                  |                                                                                                                                                                                                                                          |
    |                       |                 |                  | Minimum: **0**                                                                                                                                                                                                                           |
@@ -97,7 +95,7 @@ Request Parameters
    +-----------------------+-----------------+------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | remote_gateway_v6_ip  | No              | String           | Specifies the IPv6 interface address of the gateway on the on-premises network. This parameter is mandatory if **address_family** is set to an IPv6 address.                                                                             |
    +-----------------------+-----------------+------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | vgw_id                | Yes             | String           | Specifies the ID of the virtual gateway connected by the virtual interface.                                                                                                                                                              |
+   | vgw_id                | No              | String           | Specifies the ID of the virtual gateway connected by the virtual interface.                                                                                                                                                              |
    +-----------------------+-----------------+------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | route_mode            | Yes             | String           | Specifies the routing mode. The value can be **static** or **bgp**.                                                                                                                                                                      |
    |                       |                 |                  |                                                                                                                                                                                                                                          |

@@ -15,7 +15,7 @@ URI
 
 POST /v3/{project_id}/dcaas/hosted-connects
 
-.. table:: **Table 1** Path parameters
+.. table:: **Table 1** URI parameters
 
    ========== ========= ====== =========================
    Parameter  Mandatory Type   Description
@@ -205,6 +205,10 @@ Response Parameters
    |                       |                       | -  **10G**                                                                                                                         |
    |                       |                       | -  **40G**                                                                                                                         |
    |                       |                       | -  **100G**                                                                                                                        |
+   |                       |                       |                                                                                                                                    |
+   |                       |                       |    .. note::                                                                                                                       |
+   |                       |                       |                                                                                                                                    |
+   |                       |                       |       The port type of a hosted connection is the same as that of the operations connection that the hosted connection relies on.  |
    +-----------------------+-----------------------+------------------------------------------------------------------------------------------------------------------------------------+
    | type                  | String                | Specifies the type of the connection. The value is **hosted**.                                                                     |
    |                       |                       |                                                                                                                                    |

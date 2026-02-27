@@ -17,7 +17,7 @@ Procedure
 
 #. Click |image1| in the upper left corner and select a region and project.
 
-#. Click |image2| to display **Service List** and choose **Management & Deployment** > **Cloud Eye**.
+#. In the service list in the upper left corner of the page, choose **Management & Deployment** > **Cloud Eye**.
 
 #. In the navigation pane on the left, choose **Alarm Management** > **Alarm Rules**.
 
@@ -32,4 +32,3 @@ Procedure
       For more information about Direct Connect alarm rules, see the *Cloud Eye User Guide*.
 
 .. |image1| image:: /_static/images/en-us_image_0000001187260408.png
-.. |image2| image:: /_static/images/en-us_image_0000001683203365.png
